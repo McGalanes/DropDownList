@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <hakobastvatsatryan.DropdownTextView
+        <hakobastvatsatryan.DropDrownList
             android:id="@+id/first_dropdown_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -25,7 +25,7 @@
             app:title_text="@string/dropdown_title_text"
             app:title_text_color="@color/first_drop_down_text_view_title"/>
 
-        <hakobastvatsatryan.DropdownTextView
+        <hakobastvatsatryan.DropDrownList
             android:id="@+id/second_dropdown_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
             app:content_text_color="@color/second_drop_down_text_view_content"
             app:title_text_color="@color/second_drop_down_text_view_title"/>
 
-        <hakobastvatsatryan.DropdownTextView
+        <hakobastvatsatryan.DropDrownList
             android:id="@+id/themed_dropdown_text_view"
             style="@style/SupportDropdownTextView"
             android:layout_width="match_parent"

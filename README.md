@@ -19,7 +19,7 @@ Adds drop-down to your layout via XML
     android:orientation="vertical">
 
 
-    <hakobastvatsatryan.DropdownTextView
+    <hakobastvatsatryan.DropDrownList
         android:id="@+id/first_dropdown_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

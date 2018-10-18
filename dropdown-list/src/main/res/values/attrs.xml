@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <declare-styleable name="DropdownTextView">
+    <declare-styleable name="DropDrownList">
         <attr name="title_text"/>
         <attr name="content_text"/>
         <attr name="bg_drawable_regular" format="reference"/>

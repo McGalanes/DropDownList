@@ -18,7 +18,7 @@ import hakobastvatsatryan.dropdowntextview.R
  * Created by hakob on 12/6/16.
  */
 
-class DropdownTextView : LinearLayout {
+class DropDrownList : LinearLayout {
 
 	private lateinit var panelView: View
 	private lateinit var titleTextView: TextView
@@ -266,7 +266,7 @@ class DropdownTextView : LinearLayout {
 	}
 
 	private fun inflateView() {
-		View.inflate(context, R.layout.view_dropdown_text_view, this)
+		View.inflate(context, R.layout.view_dropdown_list, this)
 	}
 
 	private fun expandInternal(animate: Boolean) {
@@ -443,8 +443,8 @@ class DropdownTextView : LinearLayout {
 			return this
 		}
 
-		fun build(): DropdownTextView {
-			return DropdownTextView(context, this)
+		fun build(): DropDrownList {
+			return DropDrownList(context, this)
 		}
 	}
 }

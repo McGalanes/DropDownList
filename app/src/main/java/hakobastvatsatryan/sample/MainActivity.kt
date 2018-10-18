@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.ViewGroup
 import android.widget.LinearLayout
-import hakobastvatsatryan.DropdownTextView
+import hakobastvatsatryan.DropDrownList
 
 typealias lp = LinearLayout.LayoutParams
 
@@ -14,11 +14,11 @@ class MainActivity : AppCompatActivity() {
 		super.onCreate(savedInstanceState)
 		setContentView(R.layout.activity_main)
 
-		val secondDropdownTextView: DropdownTextView = findViewById(R.id.second_dropdown_text_view)
-		secondDropdownTextView.setTitleText(R.string.dropdown_title_text)
-		secondDropdownTextView.setContentText(R.string.dropdown_content_text)
+		val secondDropDrownList: DropDrownList = findViewById(R.id.second_dropdown_text_view)
+		secondDropDrownList.setTitleText(R.string.dropdown_title_text)
+		secondDropDrownList.setContentText(R.string.dropdown_content_text)
 
-		val thirdDropdownTextViewSecond = DropdownTextView.Builder(this)
+		val thirdDropdownTextViewSecond = DropDrownList.Builder(this)
 				.setTitleTextColorRes(R.color.third_drop_down_text_view_title)
 				.setTitleTextRes(R.string.dropdown_title_text)
 				.setContentTextColorRes(R.color.third_drop_down_text_view_content)
