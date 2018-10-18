@@ -9,7 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/dropdown-textview" />
+            <option value="$PROJECT_DIR$/dropdown-list" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

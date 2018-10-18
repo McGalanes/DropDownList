@@ -3,22 +3,22 @@ apply plugin: 'kotlin-android'
 
 ext {
     bintrayRepo = 'maven'
-    bintrayName = 'dropdown-textview'
+    bintrayName = 'dropdown-list'
 
-    publishedGroupId = 'com.github.hakobast'
-    libraryName = 'DropdownTextView'
+    publishedGroupId = 'com.github.mcgalanes'
+    libraryName = 'DropDownList'
     artifact = 'dropdown-textview'
 
-    libraryDescription = 'Simple drop-down TextView for Android'
+    libraryDescription = 'Simple drop-down list for Android'
 
-    siteUrl = 'https://github.com/hakobast/DropdownTextView'
-    gitUrl = 'https://github.com/hakobast/DropdownTextView.git'
+    siteUrl = 'https://github.com/mcgalanes/DropDownList'
+    gitUrl = 'https://github.com/mcgalanes/DropDownList.git'
 
     libraryVersion = '0.2'
 
-    developerId = 'hakobast'
-    developerName = 'Hakob Astvatsatryan'
-    developerEmail = 'hakob.astvacatryan@gmail.com'
+    developerId = 'mcgalanes'
+    developerName = 'Melwin McGalanes'
+    developerEmail = 'melwin.magalhaes@gmail.com'
 
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
