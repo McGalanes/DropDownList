@@ -138,65 +138,65 @@ class DropDrownList : LinearLayout {
 	private fun readAttributes(attrs: AttributeSet) {
 		val a = context.theme.obtainStyledAttributes(
 				attrs,
-				R.styleable.DropdownTextView,
+				R.styleable.DropDownList,
 				0, 0
 		)
 
 		val typeValue = TypedValue()
 
-		a.getValue(R.styleable.DropdownTextView_title_text, typeValue)
+		a.getValue(R.styleable.DropDownList_title_text, typeValue)
 		titleText = when(typeValue.type){
 			TypedValue.TYPE_STRING -> typeValue.string as String?
 			TypedValue.TYPE_REFERENCE -> resources.getString(typeValue.resourceId)
 			else -> null
 		}
 
-		a.getValue(R.styleable.DropdownTextView_title_text_color, typeValue)
+		a.getValue(R.styleable.DropDownList_title_text_color, typeValue)
 		titleTextColor = when(typeValue.type){
 			TypedValue.TYPE_REFERENCE -> ContextCompat.getColor(context, typeValue.resourceId)
 			else -> typeValue.data
 		}
 
-		titleTextSizeRes = a.getResourceId(R.styleable.DropdownTextView_title_text_size, -1)
-		titleFontRes = a.getResourceId(R.styleable.DropdownTextView_title_font, -1)
+		titleTextSizeRes = a.getResourceId(R.styleable.DropDownList_title_text_size, -1)
+		titleFontRes = a.getResourceId(R.styleable.DropDownList_title_font, -1)
 
-		a.getValue(R.styleable.DropdownTextView_content_text, typeValue)
+		a.getValue(R.styleable.DropDownList_content_text, typeValue)
 		contentText = when(typeValue.type){
 			TypedValue.TYPE_STRING -> typeValue.string as String?
 			TypedValue.TYPE_REFERENCE -> resources.getString(typeValue.resourceId)
 			else -> null
 		}
 
-		a.getValue(R.styleable.DropdownTextView_content_text_color, typeValue)
+		a.getValue(R.styleable.DropDownList_content_text_color, typeValue)
 		contentTextColor = when(typeValue.type){
 			TypedValue.TYPE_REFERENCE -> ContextCompat.getColor(context, typeValue.resourceId)
 			else -> typeValue.data
 		}
 
-		contentTextSizeRes = a.getResourceId(R.styleable.DropdownTextView_content_text_size, -1)
-		contentFontRes = a.getResourceId(R.styleable.DropdownTextView_content_font, -1)
+		contentTextSizeRes = a.getResourceId(R.styleable.DropDownList_content_text_size, -1)
+		contentFontRes = a.getResourceId(R.styleable.DropDownList_content_font, -1)
 
-		bgRegularDrawableRes = a.getResourceId(R.styleable.DropdownTextView_bg_drawable_regular, -1)
+		bgRegularDrawableRes = a.getResourceId(R.styleable.DropDownList_bg_drawable_regular, -1)
 		bgExpandedDrawableRes = a.getResourceId(
-				R.styleable.DropdownTextView_bg_drawable_expanded,
+				R.styleable.DropDownList_bg_drawable_expanded,
 				-1
 		)
 
 		panelPaddingRes = a.getResourceId(
-				R.styleable.DropdownTextView_panel_padding,
+				R.styleable.DropDownList_panel_padding,
 				R.dimen.panel_default_padding
 		)
 		contentPaddingRes = a.getResourceId(
-				R.styleable.DropdownTextView_content_padding,
+				R.styleable.DropDownList_content_padding,
 				R.dimen.content_default_padding
 		)
 
 		arrowDrawableRes = a.getResourceId(
-				R.styleable.DropdownTextView_arrow_drawable,
+				R.styleable.DropDownList_arrow_drawable,
 				R.drawable.ic_arrow
 		)
 
-		expandDuration = a.getInteger(R.styleable.DropdownTextView_expand_duration, 300)
+		expandDuration = a.getInteger(R.styleable.DropDownList_expand_duration, 300)
 	}
 
 	private fun initialize() {

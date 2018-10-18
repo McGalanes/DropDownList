@@ -36,7 +36,7 @@
 
         <hakobastvatsatryan.DropDrownList
             android:id="@+id/themed_dropdown_text_view"
-            style="@style/SupportDropdownTextView"
+            style="@style/SupportDropDownList"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:title_text="Themed text"

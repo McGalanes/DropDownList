@@ -11,7 +11,7 @@
         <item name="color_1">#f97a12</item>
     </style>
 
-    <style name="SupportDropdownTextView">
+    <style name="SupportDropDownList">
         <item name="arrow_drawable">@drawable/ic_arrow</item>
         <item name="bg_drawable_expanded">@drawable/bg_second_dropdown_text_view_expanded</item>
         <item name="bg_drawable_regular">@drawable/bg_first_dropdown_text_view_regular</item>
