@@ -10,9 +10,6 @@
         <attr name="title_text_color"/>
         <attr name="title_text_size" format="dimension"/>
         <attr name="title_font" format="reference"/>
-        <attr name="content_text_size" format="dimension"/>
-        <attr name="content_text_color" />
-        <attr name="content_font" format="reference"/>
         <attr name="expand_duration" format="integer"/>
         <attr name="panel_padding" format="dimension"/>
         <attr name="content_padding" format="dimension"/>
